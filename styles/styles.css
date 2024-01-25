@@ -1,0 +1,18 @@
+body {
+    background-color: steelblue;
+}
+
+a {
+    padding: 10px; 
+    color: white;
+    font-size: 1.15em; /* <means that it is 130% bigger than the default text */
+}
+img{
+    width: 400px;
+}
+#main_title {
+    font-size: 4em
+}
+p {
+    color: beige;
+}
