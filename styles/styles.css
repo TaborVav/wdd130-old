@@ -1,18 +1,73 @@
+/* *{
+    border:2px solid red
+} */
+/* ^^^^^ This commented out code when active lets you see the containers */
 body {
-    background-color: steelblue;
+    /* background-color: rgb(192, 212, 212); */
+    padding: 0;
+    margin: 0}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white
 }
+
+nav {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(192, 212, 212);
+}
+
+.nav_link {
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    /* ^^^ Takes a percentage of the container, making it repsonsive to the screen it is on. 
+    VS a pixel based size that stays the same size no matter what */
+    display:block;
+    margin:0 auto
+    /* ^ Centers inside the container itself */
+}
+
 
 a {
     padding: 10px; 
-    color: white;
+    color: black;
     font-size: 1.15em; /* <means that it is 130% bigger than the default text */
+    text-decoration: none;
+    text-align: center
+    /* ^centers inside of container */
 }
-img{
-    width: 400px;
+
+nav a:hover {
+    color:aqua;
+    background-color: rgb(15, 25, 34)
 }
 #main_title {
-    font-size: 4em
+    font-size: 3em;
+    text-align: center }
+
+
+p, h3 {
+    color: black;
+    text-align: center;
 }
-p {
-    color: beige;
+
+#sub_title{
+    color: black
+}
+
+footer{
+    background-color:rgb(192, 212, 212);
+    padding: 20px
+}
+
+footer a {
+    color: white
 }

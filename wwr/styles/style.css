@@ -1,0 +1,106 @@
+
+
+body{
+    background-color: bisque;
+}
+
+.logo{
+    width: 200px;
+
+}
+
+header{
+    background-color: rgb(41, 42, 42);
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto
+}
+
+nav a{
+    text-align: center;
+    color:bisque;
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(41, 42, 42);
+    background-color: rgb(255, 255, 255);
+}
+.icon {
+    width: 80px;
+}
+   
+.home-title{
+    color:rgb(20, 21, 21)
+}
+
+#hero-msg h1{ 
+    text-align: center;
+}
+/* do I need hero message before this? */
+#hero-mesg h4{
+    text-align: center;
+    color:rgb(24, 243, 243)
+}
+#hero-img{
+    width:100%
+}
+
+.button-box{
+    text-align: center;
+}
+
+.book{
+    color:bisque;
+    background-color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+
+.book:hover{
+    color:black;
+    background-color:rgb(113, 153, 162);
+}
+
+
+main section{
+    text-align: center;
+}
+#background{
+    height:725px;
+    /* ^^^ could this just be a percentage instead?? */
+   background-color: bisque;
+}
+
+.msg{
+    background-color: black;
+}
+.msg h2{
+    color:antiquewhite;
+}
+
+.msg p{
+    color:rgb(113, 153, 162);
+}
+
+.join{
+    color:black;
+    background-color: white;
+    text-decoration: none;
+}
+.join:hover{
+    color:white;
+    background-color: rgb(74, 104, 110);
+}
+
+footer{
+    background-color:rgb(113, 153, 162);
+    font-size: 1.2em;
+}
+footer a{
+    color:black;
+    text-decoration: none;
+}
+footer a:hover{
+    color:antiquewhite;
+    text-decoration: underline;
+}

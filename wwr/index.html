@@ -6,74 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitewater Rafting Vacations | Crystal Current Rafting | Home</title>
 </head>
+<!-- Link to external style sheet -->
+<link rel="stylesheet" href="styles/style.css">
+
 <body>
-    <header>
-        <a id="logo_link" href="index.html" >
-            <img class="logo" src="images/ccr.png" alt ="Crystal Current Logo" width="220">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Page2</a>
-            <a href="wwr/site-plan-rafting.html">Site Plan</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
-    </header>
-    <!-- Flow chart for when to use <div> or <section>: 
-        http://html5doctor.com/downloads/h5d-sectioning-flowchart.png -->
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images_main/rafting_images/hero.png" alt="People enjoying rafting">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Have An Adventure</h1>
-            <h4>Make memories with Crystal Current</h4> <!-- why are h1 and h4 carrots different?? I get that its held inside but why? -->
-            <div class="button-box">
-                <a class="book" href="contactus.html">Book Now</a>
+    <!-- Max width/fittign it to the screen -->
+    <div id="content">
+        <header>
+            <!-- Logo -->
+            <a id="logo_link" href="images_main/rafting_icon/ccr.png" >
+                <!-- Why doesnt this work if I place in Icon folder? -->
+                <img class="logo" src="images/ccr.png" alt ="Crystal Current Logo" width="220">
+            </a>
+            <nav>
+                <a href="wwr/images_main/rafting_icon/ccr.png">Home</a>
+                <a href="#">Page2</a>
+                <a href="wwr/site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <!-- Flow chart for when to use <div> or <section>: 
+            http://html5doctor.com/downloads/h5d-sectioning-flowchart.png -->
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images_main/rafting_images/hero.png" alt="People enjoying rafting">
             </div>
-        </section>
-        <main class="home-grid">
-            <!-- RIVER -->
-            <section class="rivers-card">
-                <img class="card-img" src="images_main/rafting_images/rapids.jpg" alt="churning river">
-                <img class="icon" src="images_main/rafting_icon/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
+            <section id="hero-msg">
+                <h1 class="home-title">Have An Adventure</h1>
+                <h4>Make memories with Crystal Current</h4> <!-- why are h1 and h4 carrots different?? I get that its held inside but why? -->
+                <div class="button-box">
+                    <a class="book" href="contactus.html">Book Now</a>
+                </div>
             </section>
-             <!-- FIRE -->
-            <section class="camping-card">
-                <img class="card-img" src="images_main/rafting_images/camping.jpg" alt="tent in mountains">
-                <img class="icon" src="images_main/rafting_icon/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-             <!-- RIVER -->
-            <section class="rapids-card">
-                <img class="card-img" src="images_main/rafting_images/rapids.jpg" alt="rafting boat on churning rapids">
-                <img class="icon" src="images_main/rafting_icon/oars.png" alt="oars icon">
-                <h2>Rapids</h2>
-            </section>
-             <!-- MISTY MOUNTAINS -->
-            <img class="mountains" src="images_main/rafting_images/mountains.jpg" alt="misty mountains">
-            <section class="msg">
-                <h2>More than Just the Thrill</h2>
-                <p>Enjoy the breathtaking scenery! From valleys, meadows, canyons, and high peaks! The adventure is more than just the rapids. Its the beauty of the great outdoors that surrounds them.</p>
-            </section>
-        </main>
-        <footer>
-            <p>Crystal Current &copy; 2024 - Tabor Vavra</p>
-            <p><a href="wwr/site-plan-rafting.html">Site Plan</a></p> <!--What is the <a> here do??? - The <a> tag creates a hyperlink -->
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a href="https://facebook.com">
-                    <img src="images_main/rafting_icon/facebook.png" alt="facebook icon">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images_main/rafting_icon/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images_main/rafting_icon/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
-    </div>    
+            <main class="home-grid">
+                <!-- RIVER -->
+                <section class="rivers-card">
+                    <img class="card-img" src="images_main/rafting_images/rapids.jpg" alt="churning river">
+                    <img class="icon" src="images_main/rafting_icon/river_icon.png" alt="river icon">
+                    <h2>Rivers</h2>
+                </section>
+                <!-- FIRE -->
+                <section class="camping-card">
+                    <img class="card-img" src="images_main/rafting_images/camping.jpg" alt="tent in mountains">
+                    <img class="icon" src="images_main/rafting_icon/fire_icon.png" alt="fire icon">
+                    <h2>Camping</h2>
+                </section>
+                <!-- RIVER -->
+                <section class="rapids-card">
+                    <img class="card-img" src="images_main/rafting_images/rapids.jpg" alt="rafting boat on churning rapids">
+                    <img class="icon" src="images_main/rafting_icon/oars.png" alt="oars icon">
+                    <h2>Rapids</h2>
+                </section>
+                <!-- CONTAINER FOR MESSAGE BACKGROUND -->
+                <div id="background"></div>
+                <!-- MISTY MOUNTAINS -->
+                <img class="mountains" src="images_main/rafting_images/mountains.jpg" alt="misty mountains">
+                <section class="msg">
+                    <h2>More than Just the Thrill</h2>
+                    <p>Enjoy the breathtaking scenery! From valleys, meadows, canyons, and high peaks! The adventure is more than just the rapids. Its the beauty of the great outdoors that surrounds them.</p>
+                    <a class='join' href="rivers.html">Join Us</a>
+                </section>
+            </main>
+            <footer>
+                <p>Crystal Current &copy; 2024 - Tabor Vavra</p>
+                <p><a href="wwr/site-plan-rafting.html">Site Plan</a></p> <!--What is the <a> here do??? - The <a> tag creates a hyperlink -->
+                <p><a href="contactus.html">Contact Us</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank" >
+                        <img src="images_main/rafting_icon/facebook.png" alt="facebook icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" >
+                        <img src="images_main/rafting_icon/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" >
+                        <img src="images_main/rafting_icon/instagram.png" alt="instagram icon">
+                    </a>
+                </div>
+            </footer>
+        </div>    
+    </div>
 </body>
 </html>
 
