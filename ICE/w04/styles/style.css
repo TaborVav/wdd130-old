@@ -1,0 +1,28 @@
+
+
+
+body{
+    background-color: rgb(157, 198, 249);
+}
+
+#content{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px
+}
+lo{
+    text-align: left;
+}
+/* h4{
+    text-align: left;
+
+} */
+
+img{
+    width: 35%;
+    /* ^^^ Takes a percentage of the container, making it repsonsive to the screen it is on. 
+    VS a pixel based size that stays the same size no matter what */
+    display:block;
+    margin:0 auto
+    /* ^ Centers inside the container itself */
+}
