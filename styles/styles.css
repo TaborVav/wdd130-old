@@ -41,6 +41,15 @@ img{
     border-radius: 30px;
     /* border-radius: 50%; */
     border: 5px black;
+    box-shadow: 2.5px 2.5px 5px rgb(182, 182, 182);
+    transition: transform .5s;
+    /* ^^^^^ gives .5 seconds before it changes photo */
+
+}
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+    /* ^^^^ makes image 110% size and goes down to 60% opacity*/
 }
 
 
@@ -70,7 +79,7 @@ p, h3 {
     text-align: center;
 }
 
-main p {
+main p{
     width: 50%;
     margin: 20px auto; 
     /* ^^^centers the container itself^^^ */
@@ -81,7 +90,7 @@ main p {
     border: 2px solid black;
     color:black;
     box-sizing: border-box;
-    border-radius: 30px 2px 2px 2px;
+    border-radius: 20px 20px 2px 2px;
 
 } 
 
@@ -97,3 +106,10 @@ footer{
 footer a {
     color: white
 }
+
+@media screen and (max-width: 900px) {
+    main{
+        display: block
+    }
+}
+/* ^^^^^ gets rid of the grid when smaller than 900px (I dont currently have a grid on this) */
